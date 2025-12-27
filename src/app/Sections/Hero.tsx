@@ -49,7 +49,7 @@ const Hero = () => {
                             </p>
                             <Link
                             href="#kontakt"
-                            className="p-3 md:p-3.5 lg:p-4 bg-[#e51616] text-white rounded-3xl flex justify-center items-center gap-2 md:gap-3 lg:gap-4 w-full md:w-60"
+                            className="flex justify-center items-center gap-2 md:gap-3 lg:gap-4 w-full md:w-60 cta-primary"
                             onClick={(e) => {
                                 setLinkWithoutHash(e, "kontakt");
                             }}>

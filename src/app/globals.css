@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+:root {
+    --text-primary: #ffffff;
+    --bg-primary: #e51616;
+}
+
+.cta-primary {
+    padding: 0.75rem;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border-radius: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .cta-primary {
+        padding: 0.875rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cta-primary {
+        padding: 1rem;
+    }
+}
